@@ -1,0 +1,24 @@
+.box{
+    border: 1px solid grey;
+    height: 300px;
+    width:auto;
+    margin: 60px 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.dot{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: block;
+    position:absolute;
+    animation: hide 1s;
+}
+
+
+
+@keyframes hide {
+    to{opacity: 0;}from{opacity: 1;}
+}

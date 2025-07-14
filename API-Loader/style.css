@@ -1,0 +1,33 @@
+  #loader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 4px;
+      width: 100%;
+      background: linear-gradient(to right, #4caf50 0%, #4caf50 50%, transparent 50%, transparent 100%);
+      background-size: 200% 100%;
+      animation: scrollBar 5s linear infinite;
+      z-index: 9999;
+    }
+
+    @keyframes scrollBar {
+      0% {
+        background-position: 200% 0;
+      }
+      100% {
+        background-position: -200% 0;
+      }
+    }
+    .content-block {
+    margin-top: 60px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    height: 60vh;
+    /* width: 100vw; */
+    align-items: center;
+    justify-content: center;
+    border: 1px solid blue;
+    background: #0000ff80;
+    color: #fff;
+    }

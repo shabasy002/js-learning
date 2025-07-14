@@ -1,0 +1,35 @@
+.main{
+   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+.loader{
+    width:100vw;
+    display: flex;
+    height: 10px;
+}
+.inner{
+    background-color: blue;
+    width:25%;
+    margin-left: 0%;
+    transition: margin 700ms;
+
+}
+
+
+.hidden {
+    display: none;
+  }
+  .dropdown-menu {
+    border: 1px solid #ccc;
+    margin-top: 4px;
+    list-style: none;
+    padding: 0;
+  }
+  .dropdown-menu li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  

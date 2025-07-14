@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: white;
+    border: 1px solid #ccc;
+    display: none;
+    width: 150px;
+    z-index: 100;
+  }
+
+  .dropdown-menu li {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+
+  .dropdown-menu li:hover {
+    background-color: #eee;
+  }
+
+  .dropdown.show .dropdown-menu {
+    display: block;
+  }
+
+
+    </style>
+</head>
+<body style="height: 2000px;">
+
+    <div class="dropdown" id="dropdown">
+  <button id="dropdownToggle">Select Option ⌄</button>
+  <ul class="dropdown-menu" id="dropdownMenu">
+    <li class="dropdown-item">Option 1</li>
+    <li class="dropdown-item">Option 2</li>
+    <li class="dropdown-item">Option 3</li>
+  </ul>
+</div>
+<p>Selected: <span id="selectedValue">None</span></p>
+
+    <input type="text" id="searchInput" value="" />
+    <button type="button" name="submit" id="submit">Submit</button>
+</body>
+<script type="text/javascript" src="script.js" ></script>
+</html>

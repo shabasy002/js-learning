@@ -1,0 +1,42 @@
+.main{
+    text-align: center;
+    display: flex;
+    height: 100vh;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hide{
+    display: none !important;
+}
+
+.result,
+.feedback{
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid red;
+    width: 300px;
+}
+
+.smileys{
+    display: flex;
+    gap: 30px;
+    margin: 0 0 30px;
+}
+.smileys a{
+    text-decoration: none;
+}
+
+a.current{
+    font-size: 20px;
+
+}
+
+.result .back-arrow{
+    cursor: pointer;
+}
